@@ -4,3 +4,39 @@
 	padding: 0;
 	font-family: "Manrope", sans-serif;
 }
+
+body {
+	background-image: url(images/bg-pattern.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main {
+	margin: 5rem auto;
+	width: 90vw;
+}
+
+header {
+	width: 90vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	text-align: center;
+	margin-bottom: 3rem;
+	background-image: url(images/pattern-circles.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	padding: 1.5rem 0;
+}
+
+header span {
+	width: 60vw;
+	color: hsl(225, 20%, 60%);
+	line-height: 1.8rem;
+}
+
+h1 {
+	font-size: 1.4rem;
+}
